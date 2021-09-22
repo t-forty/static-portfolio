@@ -1,0 +1,58 @@
+.client-name {
+  border-left: 8px solid lightgreen;
+  color: darkslategray;
+  margin-bottom: 1em;
+  padding-left: 1em;
+}
+.client-title {
+  font-family: system-ui;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+.main-header-nav {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: flex-end;
+}
+.name {
+  font-size: 3em;
+}
+.name,
+.section-label {
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+.nav-icon {
+  height: 1em;
+}
+.nav-icon-link {
+  margin-right: 0.5em;
+}
+.section-label {
+  border-left: 4px solid lightskyblue;
+  width: 100%;
+  background: aliceblue;
+  height: 2em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.section-label span {
+  color: #4fbcff;
+  font-weight: 500;
+}
+.skills {
+  display: flex;
+  margin: 1em auto 0;
+  width: 85%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.skill {
+  height: 4em;
+  width: 33%;
+}
+.skill img {
+  height: 2em;
+}
